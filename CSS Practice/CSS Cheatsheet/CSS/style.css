@@ -1,0 +1,86 @@
+ /*
+ *{
+    margin: 0px;  for all elements 
+}*/
+
+body{
+    background-color: aquamarine;
+    color: blueviolet;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    /*same as above
+    font: normal 14px, Arial, Helvetica;*/
+
+    line-height: 1.5em;
+    margin: 0%;
+}
+
+.container{
+    width: 500px;
+    margin: auto;
+}
+
+.box1{
+    background-color: black;
+    color: beige;
+    border: 5px red solid;
+    border-width: 8px;
+    border-style: dashed;
+
+    padding: 20px;
+
+    margin: 10px;
+
+}
+
+a{
+    text-decoration-line: none;
+    color: black;
+}
+
+a:hover{
+    color: pink;
+}
+
+a:active{
+    color: chocolate;
+}
+
+.box1 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    letter-spacing: normal;
+    word-spacing: normal;
+
+}
+
+.box2{
+    border: 5px;
+    border-style: dotted;
+
+}
+
+.categories{
+    border-top: 20px;
+    border: 1px red solid ;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0%;
+    list-style-type: circle;
+    list-style: none;
+    color: black;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted;
+    list-style-image: url(C:\Users\zahan\OneDrive\Desktop\Term 3\Personal Proj\CSS Practice\CSS Cheatsheet\CSS\kisspng-check-mark-desktop-wallpaper-clip-art-small-sign-5ad90b07b7f4e6.5727457915241735757535.jpg);
+}
